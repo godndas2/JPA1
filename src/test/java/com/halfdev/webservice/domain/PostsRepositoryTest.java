@@ -19,7 +19,7 @@ public class PostsRepositoryTest {
 
     @Autowired
     PostsRepository postsRepository;
-
+// branch test
     @After
     public void cleanup() {
         /* 테스트 코드에 영향을 끼치지 않기 위해 method가 끝날 때마다

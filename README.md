@@ -14,3 +14,4 @@
 - The file will have its original line endings in your working directory [Error]  
 - git config --global core.autocrlf true input [입력 후 merge 등등.. 해결]  
 [참고] https://backlog.com/git-tutorial/kr/stepup/stepup2_7.html
+dd

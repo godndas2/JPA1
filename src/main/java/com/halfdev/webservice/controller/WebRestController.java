@@ -2,14 +2,13 @@ package com.halfdev.webservice.controller;
 
 import com.halfdev.webservice.domain.posts.PostsRepository;
 import com.halfdev.webservice.dto.PostsSaveRequestDto;
-import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@AllArgsConstructor
+@Requiredargsconstructor
 public class WebRestController {
 
     /* Autowired가 없다

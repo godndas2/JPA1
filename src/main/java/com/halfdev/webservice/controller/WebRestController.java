@@ -19,7 +19,7 @@ public class WebRestController {
         this.postsRepository = postsRepository;
     }
     * */
-    private PostsRepository postsRepository;
+    private final PostsRepository postsRepository;
 
     @GetMapping("/hello")
     public String hello() {
